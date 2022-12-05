@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir</title>
+</head>
+<style>
+	body {
+		background-color: #191919;
+	}
+	div{
+	  margin: 2em 5em 3em 5em;
+
+	  padding: 2em 6em 2em 6em;
+	  background: rgb(2,0,36);
+	  background: linear-gradient(117deg, rgba(2,0,36,1) 0%, rgba(125,129,150,0.9757503221014968) 96%, rgba(222,199,45,1) 98%, rgba(222,199,45,1) 98%, rgba(142,49,242,0.5859143339953169) 98%);
+	  color: #ffff;
+	  font-family: 'Josefin Sans', sans-serif;
+	  border-radius: 1.25rem;
+	}
+	#container_1{
+	  text-align:center;
+	}
+	#container_2{
+	 display: block;
+
+	  
+	}
+	.form{
+	  width: 100%;
+	  margin-bottom: 1em;
+	}
+
+	#submit{
+	  display: block;
+	  width: 100%;
+	  padding: 0.75rem;
+	  background: rgb(2,0,36);
+	  color: inherit;
+	  border-radius: 15px;
+	  cursor: pointer;
+	  margin-top: 20px;
+	}
+
+	#submit:hover{
+		background-color: green;
+		color: black;
+	}
+
+	input {
+		padding: 10px 4px;
+		border-radius: 3px;
+		border:1px solid white;
+		margin-top: 12px
+	}
+
+	.demo {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	textarea{
+	  width: 100%;
+	  height: 80px;
+	}
+
+
+</style>
+<body>
+	
+	<p class="back"><a href="dashboard.html">Back to home</a></p>
+	<div id="container_1">
+  
+  	<h1 id="title">
+  		Formulir Data Mahasiswa
+	</h1><!--title-->
+	<p id="description">
+	  Mulia University
+	</p><!--description--->
+  
+</div><!---container_1--->
+<div id="container_2">
+  <form id="survey-form">
+    <label id="name-label">Name Lengkap</label>
+      <input type="text" id="name" name="name" class="form" required placeholder="Masukkan nama anda"><br><!--name--->
+    <label id="email-label">Tempat Lahir</label>
+      <input type="text" id="email" name="email" class="form" required placeholder="Masukkan tempat lahir anda"><br><!---email-->
+    <label id="email-label">Tanggal Lahir</label>
+      <input type="date" id="email" name="email" class="form" required placeholder="Masukkan tempat lahir anda"><br><!---email-->
+    <label id="number-label">Alamat</label>
+      <input type="text" id="number" name="number" class="form" placeholder="Masukkan alamat anda" required><!---number-->
+    <p>Jenis Kelamin</p>
+    <label>
+      <input type="radio" name="genre" value="Laki-Laki">Laki-Laki
+    </label>
+    <label>
+      <input type="radio" name="genre" value="Perempuan">Perempuan
+    </label><br><br>
+
+    <label id="carrer">Agama</label>
+    <select id="dropdown" name="role" required>
+      <option disabled selected value>
+        Pilih
+      </option>
+      <option value="ISC">
+        Islam
+      </option>
+      <option value="IMA">
+        Kristen
+      </option>
+      <option value="II">
+        Buddha
+      </option>
+      <option value="IGE">
+        Hindu
+      </option>
+      <option value="IGE">
+        Konghucu
+      </option>
+    </select><br><br>
+    
+    <label id="number-label">Tinggi Badan</label><br>
+      <input type="number" id="number" name="number" required><!---number--><br><br>
+    
+    <label id="number-label">Berat Badan</label><br>
+      <input type="number" id="number" name="number" required><!---number-->
+
+    <p>Tuliskan hobi anda apa saja</p>
+      <textarea
+        id="comments"
+        name="comment"
+        placeholder="Isi apa saja hobi anda"
+      ></textarea>
+
+
+
+	<button onclick="myFunction()" type="submit" id="submit" name="submit" value="Submit">Submit</button>
+	<p id="demo" class="demo"></p>
+  </form><!---survey-form--->
+</div><!--container_2--->
+<script>
+	function myFunction() {
+	  alert("Data Berhasil Disimpan");
+	}
+</script>
+
+
+</body>
+</html>

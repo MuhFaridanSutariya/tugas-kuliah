@@ -1,0 +1,10 @@
+D:\Project C++\safari\safari\bin\Debug\safari.exe.config
+D:\Project C++\safari\safari\bin\Debug\safari.exe
+D:\Project C++\safari\safari\bin\Debug\safari.pdb
+D:\Project C++\safari\safari\bin\Debug\safari.xml
+D:\Project C++\safari\safari\obj\Debug\safari.Form1.resources
+D:\Project C++\safari\safari\obj\Debug\safari.Resources.resources
+D:\Project C++\safari\safari\obj\Debug\safari.vbproj.GenerateResource.Cache
+D:\Project C++\safari\safari\obj\Debug\safari.exe
+D:\Project C++\safari\safari\obj\Debug\safari.xml
+D:\Project C++\safari\safari\obj\Debug\safari.pdb

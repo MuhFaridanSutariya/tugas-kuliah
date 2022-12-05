@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1652532229 source:d:\project c++\metode stack\main.cpp
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<iostream>
+

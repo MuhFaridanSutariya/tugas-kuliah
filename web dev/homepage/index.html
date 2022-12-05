@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Halaman Login</title>
+  <link rel="stylesheet" href="./login.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<img src="img/background.jpg" id="bg">
+
+<form name="userform" action="javascript:findPass();">
+  <div class="form-field">
+    <input type="text" placeholder="Username" name='formuser' required/>
+  </div>
+  
+  <div class="form-field">
+    <input type="password" placeholder="Password" name="formpass" required/>       
+  </div>
+  
+  <div class="form-field">
+    <input type="submit" value="Sign in" class="btn">
+  </div>
+</form>
+<script type="text/javascript">
+         function findPass() {
+         var un = window.document.userform.formuser.value;
+         var pw = window.document.userform.formpass.value;  
+         if(un + "_" + pw == "Faridan_2111130"){
+            window.location.href='dashboard.html';
+        }
+          else {
+            alert('Kesalahan dalam mengisi username/password');
+        }
+        }
+</script>
+  
+</body>
+</html>
